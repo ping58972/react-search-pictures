@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "38ba3d316222ac6fad7edb639cf381c8",
+    "revision": "19790a31fadc408a1478009765e44aaa",
     "url": "/react-practrice-FormEventHandle/index.html"
   },
   {
-    "revision": "c72ed10fea2fceac260d",
+    "revision": "e66ae42f9d5ecbce6214",
     "url": "/react-practrice-FormEventHandle/static/css/main.68fb396b.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-practrice-FormEventHandle/static/js/2.65b9c135.chunk.js"
   },
   {
-    "revision": "c72ed10fea2fceac260d",
-    "url": "/react-practrice-FormEventHandle/static/js/main.8756d7d7.chunk.js"
+    "revision": "e66ae42f9d5ecbce6214",
+    "url": "/react-practrice-FormEventHandle/static/js/main.f381e69e.chunk.js"
   },
   {
     "revision": "4720c5c9cb8fa3852de5",
