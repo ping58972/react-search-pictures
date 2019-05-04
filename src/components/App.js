@@ -2,6 +2,7 @@ import React from 'react'
 //import axios from 'axios'; //put this "import axios" before "import searchBar file?"
 import unsplash from '../api/unsplash';
 import SearchBar from './SearchBar';
+import ImageList from './ImageList';
 
 class App extends React.Component {
   state = {images:[]};
@@ -16,7 +17,7 @@ class App extends React.Component {
   return (
     <div className="ui segment"style ={{marginTop: "10px"}}>
       <SearchBar onSubmitRun={this.onSearchSubmit}/>
-      Found: {this.state.images.length} images
+      <ImageList images ={this.state.images}/>
     </div>
   );
   }
