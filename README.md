@@ -1,6 +1,6 @@
 # React Form Event Handle
 
-<a href="https://ping58972.github.io/react-practrice-FormEventHandle/"><img src="https://a.imge.to/2019/07/15/FhdCU.png" target="_blank" alt="React Form Event Handle"></a>
+<a href="https://ping58972.github.io/react-practrice-FormEventHandle/"><img src="https://a.imge.to/2019/07/15/Fuybk.jpg" target="_blank" alt="React Form Event Handle"></a>
 The purpose of website is for practicing React Form Event Handle by implement fetching images from an API, etc.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
