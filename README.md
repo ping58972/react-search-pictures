@@ -1,70 +1,40 @@
-# Search Images to Arrange
+# React Image Search and Arrangement
 
-<a href="https://ping58972.github.io/react-practrice-FormEventHandle/"><img src="https://a.imge.to/2019/07/15/Fuybk.jpg" target="_blank" alt="React Form Event Handle"></a>
-The purpose of website is for practicing React Form Event Handle by implement fetching images from an API, etc.
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React web application that searches an image API and arranges the returned images in a responsive gallery.
 
-## Built with
+## What I built
 
-- [React](#) - Used for implement image compunents.
-- [axios](#) - Used for fetching images api.
-- More detail... see package.json
+- Built a controlled search form with React event handling.
+- Connected search terms to an image API through Axios.
+- Rendered reusable image cards and image-list components.
+- Added responsive CSS for the image gallery and application layout.
+- Configured Create React App scripts for local development, testing, production builds, and GitHub Pages deployment.
 
-## Available Scripts
+## Technology stack and skills
 
-In the project directory, you can run:
+- **Languages:** JavaScript/JSX, HTML5, and CSS3.
+- **Frameworks/libraries:** React 16.8.6, React DOM, and Axios.
+- **Tooling:** Create React App 3.0.0, react-scripts, npm, ESLint through react-app, and gh-pages.
+- **Engineering skills:** form events, controlled inputs, API integration, asynchronous requests, component decomposition, responsive gallery layout, CSS styling, production bundling, and static hosting deployment.
 
-### `npm start`
+## Run locally
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```bash
+git clone https://github.com/ping58972/react-search-pictures.git
+cd react-search-pictures
+npm install
+npm start
+```
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+Build and deploy:
 
-### `npm test`
+```bash
+npm run build
+npm run deploy
+```
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The image API request requires the project's configured API endpoint/key strategy. Never commit private credentials.
 
-### `npm run build`
+## Author
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-## Deployment
-
-or you can go to <a href="https://ping58972.github.io/react-practrice-FormEventHandle/">github page website</a> that had been deployed to show the result of this project.
-
-## Authors
-
-- **(Ping) Nalongsone Daddank** - _Initial work_ - [ping58972](https://github.com/ping58972)
-
-## License
-
-This project is licensed under the MIT License
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+**(Ping) Nalongsone Dandank** — [ping58972](https://github.com/ping58972)
